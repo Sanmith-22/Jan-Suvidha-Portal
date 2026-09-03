@@ -1,6 +1,33 @@
+# Environment and virtual environments
 .env
-.venv
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Django local data and user uploads
 db.sqlite3
+media/
+
+# Python bytecode, caches, and tooling output
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Runtime logs
 *.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
