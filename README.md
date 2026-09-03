@@ -4,46 +4,46 @@ Jan Suvidha Portal is a web application designed to help citizens easily discove
 
 ## Features
 
-- Citizen registration with OTP verification
-- AI-powered scheme discovery system
-- AI Voice Assistant to guide users through scheme discovery
-- Voice-based interaction for accessibility and ease of use
-- Document verification system
-- Benefit probability calculation engine
-- Government admin analytics dashboard
-- SMS reminder system for pending applications
-- Multi-language support for regional users
+• Citizen registration with OTP verification
+• AI-powered scheme discovery system
+• AI Voice Assistant to guide users through scheme discovery
+• Voice-based interaction for accessibility and ease of use
+• Document verification system
+• Benefit probability calculation engine
+• Government admin analytics dashboard
+• SMS reminder system for pending applications
+• Multi-language support for regional users
 
 ## Tech Stack
 
-### Backend
+Backend
 
-- Python
-- Django
+• Python
+• Django
 
-### Frontend
+Frontend
 
-- HTML
-- CSS
-- JavaScript
+• HTML
+• CSS
+• JavaScript
 
-### Database
+Database
 
-- SQLite
+• SQLite
 
-### Other Tools
+Other Tools
 
-- Git & GitHub
-- MongoDB (AI service module)
+• Git & GitHub
+• MongoDB (AI service module)
 
 ## Project Modules
 
-1. **Citizen Portal** – User registration and scheme discovery
-2. **AI Scheme Matching Engine** – Determines eligible schemes
-3. **AI Voice Assistant** – Guides users through voice interaction
-4. **Document Verification System** – Validates uploaded documents
-5. **Admin Dashboard** – Analytics and monitoring of scheme usage
-6. **SMS Reminder System** – Sends alerts to eligible citizens
+1. Citizen Portal – User registration and scheme discovery
+2. AI Scheme Matching Engine – Determines eligible schemes
+3. AI Voice Assistant – Guides users through voice interaction
+4. Document Verification System – Validates uploaded documents
+5. Admin Dashboard – Analytics and monitoring of scheme usage
+6. SMS Reminder System – Sends alerts to eligible citizens
 
 ## Purpose
 
@@ -51,7 +51,28 @@ The goal of this project is to simplify access to government welfare schemes and
 
 ## How to Run the Project
 
-Clone the repository:
+1. Clone the repository
+git clone https://github.com/Sanmith-22/Jan-Suvidha-Portal.git
 
-```bash
-git clone https://github.com/sumanth2005-hub/jan-suvidha-portal.git
+2. Navigate to the project directory
+cd jan-suvidha-portal
+
+3. Install dependencies
+pip install -r requirements.txt
+
+4. Run database migrations
+python manage.py migrate
+
+5. Start the development server
+python manage.py runserver
+
+6. Open the portal in your browser
+http://127.0.0.1:8000/
+
+## Future Improvements
+
+• Integration with real government scheme databases
+• Real SMS gateway integration
+• Deployment on cloud infrastructure
+• Enhanced AI-based recommendation system
+• Mobile application version of the portal
