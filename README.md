@@ -1,5 +1,5 @@
 # Jan-Suvidha-Portal
-Jan Suvidha Portal
+
 Jan Suvidha Portal is a web application designed to help citizens easily discover government welfare schemes they are eligible for. The system collects user information, analyzes eligibility conditions, and suggests the most relevant schemes. It also includes an admin dashboard for monitoring scheme utilization and sending reminders to eligible citizens.
 
 Features
@@ -7,8 +7,7 @@ Features
 
 Tech Stack
 Backend
-
-Python
+ Python
 Django
 Frontend
 
